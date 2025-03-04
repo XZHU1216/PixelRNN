@@ -13,7 +13,7 @@ This repository contains an implementation of **PixelRNN with Diagonal BiLSTM** 
 ## **Directory Structure**
 ```
 ├── models\                  # Saved model checkpoints
-├── Binary\ PixelRNN.py     # Principal code
+├── Binary PixelRNN.py     # Principal code
 ├── hp_search.py     # Hyparameter searching code
 ├── hyperparameter_results.csv  # Grid search results
 └── README.md               # Project documentation
@@ -22,8 +22,8 @@ This repository contains an implementation of **PixelRNN with Diagonal BiLSTM** 
 ## **Installation & Setup**
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/PixelRNN_Diagonal_BiLSTM.git
-cd PixelRNN_Diagonal_BiLSTM
+git clone https://github.com/XZHU1216/PixelRNN.git
+cd PixelRNN
 ```
 
 ### **2️⃣ Create Virtual Environment (Optional but Recommended)**
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ## **Training & Evaluation**
 ### **1️⃣ Train the Model**
 ```bash
-python train.py --dataset cifar10 --epochs 100 --batch_size 16 --lr 0.005
+python Binary\ PixelRNN.py
 ```
 Options:
 - `--dataset` : `cifar10` or `mnist`
