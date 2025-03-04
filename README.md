@@ -13,7 +13,6 @@ This repository contains an implementation of **PixelRNN with Diagonal BiLSTM** 
 ## **Directory Structure**
 ```
 ├── models                  # Saved model checkpoints
-├── runs/                   # TensorBoard logs
 ├── Binary\ PixelRNN.py     # Principal code
 ├── hp_search.py     # Hyparameter searching code
 ├── hyperparameter_results.csv  # Grid search results
